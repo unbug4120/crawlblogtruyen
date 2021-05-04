@@ -1,0 +1,7 @@
+{
+    "name": "duongdat/comic",
+    "description": "Get comic by duongdat.",
+    "require": {
+        "unbug4120/php-simple-html": "^1.0"
+    }
+}
