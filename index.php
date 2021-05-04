@@ -18,6 +18,8 @@ if (isset($_GET["url"])) {
     }
     header('Content-Type: application/json');
     echo json_encode($arr_link);
+}else {
+    echo 'Example: <a href="/index.php?url=https://blogtruyen.vn/25610/kekkon-surutte-hontou-desu-ka">' . $_SERVER['HTTP_HOST'] . '/index.php?url=https://blogtruyen.vn/25610/kekkon-surutte-hontou-desu-ka'.'</a>';
 }
 
 function getContent($url)
